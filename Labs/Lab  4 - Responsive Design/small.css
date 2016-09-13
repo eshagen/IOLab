@@ -1,1 +1,9 @@
 /*Your mobile targeted css should go here*/
+.project-image{
+	max-width: 90%;
+	max-height: 90%;
+}
+
+img {
+  max-width: 100%;
+} 
