@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>Pokedex</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" media="(min-width: 769px)" href="main.css">
+		<link rel="stylesheet" type="text/css" media="(max-width: 375px)" href="small.css">
+		<link rel="stylesheet" type="text/css" media="(min-width: 376px) and (max-width: 768px)" href="medium.css">
+	</head>
+
+	
+	<body id="pokebody" height= 100% >	
+		<header>
+				<button id= "dropdown" type="button">Dropdown</button>
+				<h1 id="pokedex_h1">Pokedex</h1>
+				<img id="head_pokeball" src="assets/icons/pokeball_icon.png" alt="Pokeball">
+		</header>
+
+	
+
+		<div id= "maindiv">
+			<div id= "info_section">
+				<input type="text" name="search" placeholder="Search Pokemon">
+				<section id= "pic_list">
+					<img id="pikpic" src="assets/images/pickahu.png" alt="Pokeball" height="150" width="150">
+					<section id= "info_table">
+						<h1 id= "pokemon_title">No. 001 Pikachu</h1>
+						<ul>
+						  <li id="type">Electric Type</li>
+						  <li>Gentle Temperment</li>
+						  <li id="habitat">Grasslands</li>
+						</ul>
+					</section>
+				</section>
+
+				<article>
+					<p id="descript">Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.</p>
+				</article>
+			</div>
+		
+
+			<div>
+				<table id="tablepics">
+					<tr>
+						<td>
+							<img id= "abra" src="assets/images/abra.png" alt="Pokeball" height="80" width="80">
+						</td> 
+						<td>
+							<img id= "charmander" src="assets/images/charmander.png" alt="Pokeball" height="80" width="80">
+						</td> 
+						<td>
+							<img id= "charmeleon" src="assets/images/charmeleon.png" alt="Pokeball" height="80" width="80">
+						</td> 
+						<td>
+							<img id= "clafary" src="assets/images/clafary.png" alt="Pokeball" height="80" width="80">
+						</td> 
+						<td>
+							<img id= "firething" src="assets/images/firething.png" alt="Pokeball" height="80" width="80">
+						</td>
+						<td>
+							<img id= "horsea" src="assets/images/horsea.png" alt="Pokeball" height="80" width="80">
+						</td>  
+					</tr>
+					<tr>
+						<td>
+							<img id= "jigglypuff" src="assets/images/jigglyppuff.png" alt="Pokeball" height="80" width="80">
+						</td> 
+						<td>
+							<img id= "nidorino" src="assets/images/nidorino.png" alt="Pokeball" height="80" width="80">
+						</td> 
+						<td>
+							<img id= "pidgey" src="assets/images/pidgey.png" alt="Pokeball" height="80" width="80">
+						</td> 
+						<td>
+							<img id = "vulpix" src="assets/images/vulpix.png" alt="Pokeball" height="80" width="80">
+						</td> 
+						<td>
+							<img id= "wartortle" src="assets/images/wartortle.png" alt="Pokeball" height="80" width="80">
+						</td> 
+						<td>
+							<img id= "whatisthat" src="assets/images/whatisthat.png" alt="Pokeball" height="80" width="80">
+						</td> 
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<footer>
+			<nav>
+				<div class= "container">
+					<button><a id= "back" href="#pokedex_h1">BACK</a></button>
+					<button><a id= "map" href="#type">MAP</a></button>
+					<button><a id= "area" href="#descript">AREA</a></button>
+					<button><a id= "next" href="#habitat">NEXT</a></button>
+				</div>
+			</nav>
+		</footer>
+	</body>
+
+</html>

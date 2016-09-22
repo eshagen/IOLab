@@ -1,1 +1,79 @@
 /* Add CSS */
+header{
+	background: #b30000;
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
+	margin-bottom: 1px;
+}
+
+
+input{
+	width: 30%;
+    position: relative;
+    box-sizing: border-box;
+	font-size: 1em;
+	margin-bottom: 5%;
+}
+
+body{
+	width: 100%;
+	display: inline-block;
+}
+
+section {
+    width: 100%;
+    height: 80%;
+    background: gray;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    color: black;
+}
+
+div#list_todo {
+    width: 40%;
+    height: 95%;
+    background: red;
+    float: left;
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+div#list_completed {
+    margin-right: 5%;
+    height: 95%;
+    width: 40%;
+    float: right;
+    background: white;
+    margin-top: 2%;
+    text-align: left;
+}
+
+/*#todotext{
+    text-align: center;
+    position: fixed;
+}*/
+
+#todolistlist{
+    margin-top: 0%;
+}
+
+#actualcompleted{
+    margin-left: 5%;
+}
+
+#actualcompleted{
+    text-decoration: line-through;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+

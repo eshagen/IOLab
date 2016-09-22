@@ -19,21 +19,52 @@ b. The ‘complete’ item appears at the top of the ‘to-do’ list with the s
 <html>
 <head>
 
-    <title> Homework4 Javascript and jQuery </title>
+    <title> To Do List </title>
     <link rel="stylesheet" href="_css/style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
 </head>
+    <header>
+        <h1>Parv's Special To-Do List</h1>
+    </header>
+
     <body>
+           <p>
+                This is Parv's Special To-Do List. Parv enters tasks he needs to complete in the input box, and then adds them to his to do list by clicking the 'add to 'To Do' list button.  When the tasks are completed, he moves them to the completed list by clicking the 'add to completed list' button. If he decides that he didn't properly complete the activity, he can send it back to the to do list by clicking the 'Add to To Do' button.  
+
+                You can be Parv too. Use this fuckin list.
+            </p>
+
             <!-- create input tag for user input -->
-            <input>
+            <input id="todo-item-input">
 
             <!-- button takes input and adds a new element with content to 'list_do' -->
-            <button id="new-item"> </button>
+            <button id="new-item"> Add to 'To Do' List</button>
+
+
 
 
             <!-- ability to move items between list_todo and list_completed -->
-            <div id="list_todo"> </div>
-            <div id="list_completed"> </div>
+            <section>
+                
+                <div id="list_todo">
+                    <div>
+                        <h1 id="todotext"> To Do </h1>
+                    </div>
+                    <div id="actual_todo">
+                        <ul id="todolistlist"></ul>
+                    </div>
+                </div>
+                
+                <div id="list_completed"> 
+                    <div>
+                        <h1 id="completedtext"> Completed </h1>
+                    </div>
+                    <div id= "actualcompleted">
+                        <ul id="completedlistlist"></ul>
+                    </div>
+                </div>
+            </section>
 
             <script type="text/javascript" src="_js/main.js"> </script>
     </body>
